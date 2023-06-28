@@ -2,20 +2,20 @@
 
 exports[`BoardRow > should display one BoardCell per column 1`] = `
 <div>
-  MockedBoardCell {"hasShip":true,"showShip":false}
-  MockedBoardCell {"hasShip":true,"showShip":false}
-  MockedBoardCell {"hasShip":true,"showShip":false}
-  MockedBoardCell {"hasShip":true,"showShip":false}
-  MockedBoardCell {"hasShip":true,"showShip":false}
+  MockedBoardCell {"hasShip":true,"showShip":false} onCellClick: onCellClick
+  MockedBoardCell {"hasShip":true,"showShip":false} onCellClick: onCellClick
+  MockedBoardCell {"hasShip":true,"showShip":false} onCellClick: onCellClick
+  MockedBoardCell {"hasShip":true,"showShip":false} onCellClick: onCellClick
+  MockedBoardCell {"hasShip":true,"showShip":false} onCellClick: onCellClick
 </div>
 `;
 
 exports[`BoardRow > should pass the correct params to BoardCells 1`] = `
 <div>
-  MockedBoardCell {"shotted":false,"hasShip":true,"showShip":true}
-  MockedBoardCell {"shotted":true,"hasShip":true,"showShip":true}
-  MockedBoardCell {"shotted":false,"hasShip":true,"showShip":true}
-  MockedBoardCell {"shotted":true,"hasShip":true,"showShip":true}
-  MockedBoardCell {"shotted":true,"hasShip":true,"showShip":true}
+  MockedBoardCell {"shotted":false,"hasShip":true,"showShip":true} onCellClick: onCellClick
+  MockedBoardCell {"shotted":true,"hasShip":true,"showShip":true} onCellClick: onCellClick
+  MockedBoardCell {"shotted":false,"hasShip":true,"showShip":true} onCellClick: onCellClick
+  MockedBoardCell {"shotted":true,"hasShip":true,"showShip":true} onCellClick: onCellClick
+  MockedBoardCell {"shotted":true,"hasShip":true,"showShip":true} onCellClick: onCellClick
 </div>
 `;

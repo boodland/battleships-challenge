@@ -1,11 +1,17 @@
 import { render } from '@testing-library/react';
 
 import BoardRow from './board-row';
+import { BoardCellProps } from './board-cell';
 
 vi.mock('./utils', () => {
   return { hasShip: () => true, columns: [1, 2, 3, 4, 5] };
 });
-vi.mock('./board-cell', () => ({ default: (props: unknown) => `MockedBoardCell ${JSON.stringify(props)}` }));
+vi.mock('./board-cell', () => ({
+  default: (props: BoardCellProps) =>
+    `MockedBoardCell ${JSON.stringify(props)} onCellClick: ${
+      props.onCellClick.name
+    }`,
+}));
 
 const onCellClick = (position: number) => null;
 
