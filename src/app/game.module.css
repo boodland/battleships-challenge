@@ -1,0 +1,12 @@
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.blocked {
+    pointer-events: none;
+}
+
+.right-panel {
+    margin-left: 50px;
+}
