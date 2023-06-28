@@ -2,7 +2,7 @@
 
 ## Install dependencies
 
-To install the dependencies execute the command `npm install` within the root folder.
+To install the dependencies execute the command `npm install` within the root folder. If you don't have `npm` installed please follow the instructions in https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 
 ## Start the app
