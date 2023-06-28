@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GameActions > should display checkbox checked if showShips is true 1`] = `
+<div>
+  <div
+    class="_actions_b017e8"
+  >
+    <button>
+      Restart
+    </button>
+    <div>
+      <input
+        checked=""
+        name="Show ships"
+        readonly=""
+        type="checkbox"
+      />
+      Show ships
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GameActions > should display checkbox unchecked if showShips is false 1`] = `
+<div>
+  <div
+    class="_actions_b017e8"
+  >
+    <button>
+      Restart
+    </button>
+    <div>
+      <input
+        name="Show ships"
+        readonly=""
+        type="checkbox"
+      />
+      Show ships
+    </div>
+  </div>
+</div>
+`;
