@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BoardRow > should display one BoardCell per column 1`] = `
+<div>
+  MockedBoardCell {"hasShip":true,"showShip":false}
+  MockedBoardCell {"hasShip":true,"showShip":false}
+  MockedBoardCell {"hasShip":true,"showShip":false}
+  MockedBoardCell {"hasShip":true,"showShip":false}
+  MockedBoardCell {"hasShip":true,"showShip":false}
+</div>
+`;
+
+exports[`BoardRow > should pass the correct params to BoardCells 1`] = `
+<div>
+  MockedBoardCell {"shotted":false,"hasShip":true,"showShip":true}
+  MockedBoardCell {"shotted":true,"hasShip":true,"showShip":true}
+  MockedBoardCell {"shotted":false,"hasShip":true,"showShip":true}
+  MockedBoardCell {"shotted":true,"hasShip":true,"showShip":true}
+  MockedBoardCell {"shotted":true,"hasShip":true,"showShip":true}
+</div>
+`;
