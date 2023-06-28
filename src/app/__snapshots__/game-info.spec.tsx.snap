@@ -1,0 +1,59 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GameInfo > should display Game Finished! if game has finished 1`] = `
+<div>
+  <div
+    class="_text_3ba226"
+  >
+    <div
+      class="_shunk_3ba226"
+    >
+      Type 1
+    </div>
+    <div
+      class="_shunk_3ba226"
+    >
+      Type 2
+    </div>
+    Game Finished!
+  </div>
+</div>
+`;
+
+exports[`GameInfo > should display ships type 1`] = `
+<div>
+  <div
+    class="_text_3ba226"
+  >
+    <div
+      class=""
+    >
+      Type 1
+    </div>
+    <div
+      class=""
+    >
+      Type 2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GameInfo > should display ships type crossed if is shunk 1`] = `
+<div>
+  <div
+    class="_text_3ba226"
+  >
+    <div
+      class="_shunk_3ba226"
+    >
+      Type 1
+    </div>
+    <div
+      class="_shunk_3ba226"
+    >
+      Type 2
+    </div>
+  </div>
+</div>
+`;
