@@ -3,7 +3,7 @@ import styles from './game-actions.module.css';
 
 const CHECKBOX_LABEL = 'Show ships';
 
-interface GameActionsProps {
+export interface GameActionsProps {
   showShips: boolean;
   onRestartGame: () => void;
   onToggleShowShips: () => void;
