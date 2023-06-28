@@ -14,4 +14,8 @@ To start the development execute the command `npm run start`. Open your browser 
 
 To run the tests execute the command `npm run test`.
 
+## Build the app
+
+To build the app execute the command `npm run build`.
+
 
