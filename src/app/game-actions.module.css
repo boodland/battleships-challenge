@@ -1,0 +1,11 @@
+.actions {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.actions > div {
+    margin-left: 25px;
+    cursor: default;
+}
