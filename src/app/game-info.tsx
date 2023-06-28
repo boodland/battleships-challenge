@@ -1,12 +1,12 @@
 import styles from './game-info.module.css';
 import { Ship, getShipsInfo, hasGameFinished } from './utils';
 
-export interface InfoPanelProps {
+export interface GameInfoProps {
   ships: Ship[];
   shots: boolean[];
 }
 
-export function GameInfo({ ships, shots }: InfoPanelProps) {
+export function GameInfo({ ships, shots }: GameInfoProps) {
   const gameFinished = hasGameFinished(ships, shots);
   const shipsInfo = getShipsInfo(ships, shots).map((shipInfo, index) => {
     return (
