@@ -82,7 +82,7 @@ export function hasShip(ships: Ship[], position: number) {
     return hasShip;
 }
 
-export function isShipShunk(ship: Ship, shots: boolean[]) {
+function isShipShunk(ship: Ship, shots: boolean[]) {
     const isShipShunk = ship.positions.every((position) => shots[position]);
     return isShipShunk;
 }
