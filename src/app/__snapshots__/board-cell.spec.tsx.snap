@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BoardCell > should display hitted text if shotted and has ship 1`] = `
+<div>
+  <button
+    class="_cell_436b5f _has-ship_436b5f  _shotted_436b5f"
+  >
+    X
+  </button>
+</div>
+`;
+
+exports[`BoardCell > should display missed text if shotted and has no ship 1`] = `
+<div>
+  <button
+    class="_cell_436b5f   _shotted_436b5f"
+  >
+    O
+  </button>
+</div>
+`;
+
+exports[`BoardCell > should display no text if no shotted 1`] = `
+<div>
+  <button
+    class="_cell_436b5f   "
+  />
+</div>
+`;
+
+exports[`BoardCell > should display ship if has ship and show ship 1`] = `
+<div>
+  <button
+    class="_cell_436b5f _has-ship_436b5f _show-ship_436b5f "
+  />
+</div>
+`;
