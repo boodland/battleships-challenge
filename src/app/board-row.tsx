@@ -1,7 +1,7 @@
 import BoardCell from './board-cell';
 import { Ship, columns, hasShip } from './utils';
 
-interface BoardRowProps {
+export interface BoardRowProps {
   startPosition: number;
   ships: Ship[];
   shots: boolean[];
