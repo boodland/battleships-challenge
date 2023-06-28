@@ -1,0 +1,107 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Board > should display columns row 1`] = `
+<div
+  class="_columns_672456"
+>
+  <span
+    class="_text_672456"
+  >
+    A
+  </span>
+  <span
+    class="_text_672456"
+  >
+    B
+  </span>
+  <span
+    class="_text_672456"
+  >
+    C
+  </span>
+  <span
+    class="_text_672456"
+  >
+    D
+  </span>
+  <span
+    class="_text_672456"
+  >
+    E
+  </span>
+</div>
+`;
+
+exports[`Board > should display one BoardRow per row 1`] = `
+<div>
+  <div
+    class="_columns_672456"
+  >
+    <span
+      class="_text_672456"
+    >
+      A
+    </span>
+    <span
+      class="_text_672456"
+    >
+      B
+    </span>
+    <span
+      class="_text_672456"
+    >
+      C
+    </span>
+    <span
+      class="_text_672456"
+    >
+      D
+    </span>
+    <span
+      class="_text_672456"
+    >
+      E
+    </span>
+  </div>
+  <div>
+    <span
+      class="_text_672456"
+    >
+      1
+    </span>
+    MockedBoardRow {"startPosition":0,"ships":[],"shots":[],"showShips":false} onCellClick: onShot
+  </div>
+  <div>
+    <span
+      class="_text_672456"
+    >
+      2
+    </span>
+    MockedBoardRow {"startPosition":1,"ships":[],"shots":[],"showShips":false} onCellClick: onShot
+  </div>
+  <div>
+    <span
+      class="_text_672456"
+    >
+      3
+    </span>
+    MockedBoardRow {"startPosition":2,"ships":[],"shots":[],"showShips":false} onCellClick: onShot
+  </div>
+  <div>
+    <span
+      class="_text_672456"
+    >
+      4
+    </span>
+    MockedBoardRow {"startPosition":3,"ships":[],"shots":[],"showShips":false} onCellClick: onShot
+  </div>
+  <div>
+    <span
+      class="_text_672456"
+    >
+      5
+    </span>
+    MockedBoardRow {"startPosition":4,"ships":[],"shots":[],"showShips":false} onCellClick: onShot
+  </div>
+</div>
+`;
