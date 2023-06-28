@@ -1,0 +1,81 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Game > should block board if game has finished 1`] = `
+<div>
+  <div
+    class="_game_b500ea"
+  >
+    <div
+      class="_blocked_b500ea"
+    >
+      MockedBoard {"shots":[false,false,false,false,false,false,false,false,false,false],"ships":[{"type":"Type 1","positions":[0,1]},{"type":"Type 2","positions":[7,8,9]}],"showShips":false} onShot: onShot
+    </div>
+    <div
+      class="_right-panel_b500ea"
+    >
+      MockedGameActions {"showShips":false} onRestartGame: restartGame onToggleShowShips: toggleShowShips
+      MockedGameInfo {"shots":[false,false,false,false,false,false,false,false,false,false],"ships":[{"type":"Type 1","positions":[0,1]},{"type":"Type 2","positions":[7,8,9]}]}
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Game > should display Board component 1`] = `
+<div>
+  <div
+    class="_game_b500ea"
+  >
+    <div
+      class=""
+    >
+      MockedBoard {"shots":[false,false,false,false,false,false,false,false,false,false],"ships":[{"type":"Type 1","positions":[0,1]},{"type":"Type 2","positions":[7,8,9]}],"showShips":false} onShot: onShot
+    </div>
+    <div
+      class="_right-panel_b500ea"
+    >
+      MockedGameActions {"showShips":false} onRestartGame: restartGame onToggleShowShips: toggleShowShips
+      MockedGameInfo {"shots":[false,false,false,false,false,false,false,false,false,false],"ships":[{"type":"Type 1","positions":[0,1]},{"type":"Type 2","positions":[7,8,9]}]}
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Game > should display GameActions component 1`] = `
+<div>
+  <div
+    class="_game_b500ea"
+  >
+    <div
+      class=""
+    >
+      MockedBoard {"shots":[false,false,false,false,false,false,false,false,false,false],"ships":[{"type":"Type 1","positions":[0,1]},{"type":"Type 2","positions":[7,8,9]}],"showShips":false} onShot: onShot
+    </div>
+    <div
+      class="_right-panel_b500ea"
+    >
+      MockedGameActions {"showShips":false} onRestartGame: restartGame onToggleShowShips: toggleShowShips
+      MockedGameInfo {"shots":[false,false,false,false,false,false,false,false,false,false],"ships":[{"type":"Type 1","positions":[0,1]},{"type":"Type 2","positions":[7,8,9]}]}
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Game > should display GameInfo component 1`] = `
+<div>
+  <div
+    class="_game_b500ea"
+  >
+    <div
+      class=""
+    >
+      MockedBoard {"shots":[false,false,false,false,false,false,false,false,false,false],"ships":[{"type":"Type 1","positions":[0,1]},{"type":"Type 2","positions":[7,8,9]}],"showShips":false} onShot: onShot
+    </div>
+    <div
+      class="_right-panel_b500ea"
+    >
+      MockedGameActions {"showShips":false} onRestartGame: restartGame onToggleShowShips: toggleShowShips
+      MockedGameInfo {"shots":[false,false,false,false,false,false,false,false,false,false],"ships":[{"type":"Type 1","positions":[0,1]},{"type":"Type 2","positions":[7,8,9]}]}
+    </div>
+  </div>
+</div>
+`;

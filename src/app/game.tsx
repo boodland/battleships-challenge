@@ -10,14 +10,17 @@ function Game() {
   const [shots, setShots] = useState(initShots());
   const [showShips, setShowShips] = useState(false);
 
-  const restartGame = useCallback(() => {
+  const restartGameCallback = useCallback(function restartGame() {
     setShips(generateShips());
     setShots(initShots);
   }, []);
 
-  const toggleShowShips = useCallback(() => {
-    setShowShips((previousValue) => !previousValue);
-  }, []);
+  const toggleShowShipsCallback = useCallback(
+    function toggleShowShips() {
+      setShowShips((previousValue) => !previousValue);
+    },
+    []
+  );
 
   function onShot(position: number) {
     const newShots = [...shots];
@@ -40,8 +43,8 @@ function Game() {
       <div className={styles['right-panel']}>
         <GameActionsMemoized
           showShips={showShips}
-          onRestartGame={restartGame}
-          onToggleShowShips={toggleShowShips}
+          onRestartGame={restartGameCallback}
+          onToggleShowShips={toggleShowShipsCallback}
         />
         <GameInfo shots={shots} ships={ships} />
       </div>
