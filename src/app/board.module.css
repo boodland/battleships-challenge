@@ -1,0 +1,13 @@
+.text {
+  float: left;
+  height: 49px;
+  width: 49px;
+  font-size: 35px;
+}
+
+.columns {
+  margin-left: 65px;
+  clear: both;
+  content: '';
+  display: table;
+}
