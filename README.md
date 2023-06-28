@@ -11,7 +11,7 @@ To install the dependencies execute the command `npm install` within the root fo
 
 ## Start the app
 
-To start the development execute the command `npm run start`. Open your browser and navigate to http://localhost:4200/. Happy battle!
+To start the app locally execute the command `npm run start`. Open your browser and navigate to http://localhost:4200/. Happy battle!
 
 
 ## Run the tests
