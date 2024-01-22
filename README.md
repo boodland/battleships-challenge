@@ -1,5 +1,15 @@
 # Battleships Challenge
 
+## Requeriments
+
+Simple version of the game battleships. It allows a single human player to play a one-sided game of Battleships against ships placed by the computer.
+
+The program creates a 10x10 grid and places a number of ships on the grid at random with the following sizes:
+• 1x Battleship (5 squares)
+• 2x Destroyers (4 squares)
+
+The player select a cell, to specify a square to target. Shots result in hits, misses, or sinks. The game ends when all ships are sunk.
+
 ## Clone repository
 
 To clone the repository execute the command `git clone https://github.com/boodland/battleships-challenge.git`. If you don't have `git` installed please follow the instructions in https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
