@@ -34,3 +34,6 @@ To run the tests execute the command `npm run test`.
 To build the app execute the command `npm run build`.
 
 
+## Use the app
+
+The app has been deployed using [netlify](https://www.netlify.com/) and is available [here](https://alberto-arias-battleships.netlify.app/). Happy game!
